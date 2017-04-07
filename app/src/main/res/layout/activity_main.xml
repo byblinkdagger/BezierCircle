@@ -9,8 +9,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.blink.dagger.beziercircle.MainActivity">
 
-    <com.blink.dagger.beziercircle.BezierView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <com.blink.dagger.beziercircle.BezierBall
+        android:id="@+id/jelly"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_centerInParent="true"/>
 </RelativeLayout>
